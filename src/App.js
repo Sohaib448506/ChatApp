@@ -74,7 +74,7 @@ function App() {
           <div className="btm">
             <input
               type="text"
-              placeholder="enter your message"
+              placeholder="Enter your message"
               onInput={(e) => setMsg(e.target.value)}
               onKeyPress={(e) => {
                 if (e.key === "Enter") {
